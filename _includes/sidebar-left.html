@@ -18,17 +18,15 @@
   {%- if site.data.navigation -%}
 
   {% comment %}
-  {%-
-  <nav class="navigation">
-    <ul class="navigation-list">
+  {%- <nav class="navigation"> %}
+   {%- <ul class="navigation-list"> %}
     {%- for nav in site.data.navigation -%}
-      <li class="navigation-item">
-        <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a>
-      </li>
-    {%- endfor -%}
-    </ul>
-  </nav>
-  -%}
+   {%-   <li class="navigation-item"> %}
+   {%-     <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a> %}
+   {%-   </li> %}
+    {%- endfor -%} %}
+   {%- </ul>  %}
+  {%- </nav> %}
   {% endcomment %}
 
   
