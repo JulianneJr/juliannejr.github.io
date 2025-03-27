@@ -1,9 +1,6 @@
 - title: Email
   url: mailto://Julianne_M@163.com
   icon: fas fa-envelope
-- title: Wechat
-  url: https://twitter.com/vszhub
-  icon: fab fa-weixin
 - title: GitHub
   url: https://github.com/vszhub/not-pure-poole
   icon: fab fa-github
