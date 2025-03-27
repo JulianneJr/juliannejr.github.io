@@ -3,4 +3,7 @@
   icon: fas fa-envelope
 - title: GitHub
   # url: https://github.com/vszhub/not-pure-poole
+  icon: fab fa-weixin
+- title: GitHub
+  # url: https://github.com/vszhub/not-pure-poole
   icon: fab fa-github
