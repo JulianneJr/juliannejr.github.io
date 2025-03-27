@@ -5,7 +5,7 @@ url: https://juliannejr.github.io
 avatar: /AI01.jpg
 paginate: 5
 permalink: pretty
-cover_image: /bg.jpeg
+cover_image: /bg01.jpg
 
 # Gems
 plugins:
@@ -28,15 +28,15 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-twitter:
-  username: vszhub
-  card: summary
+# twitter:
+#   username: vszhub
+#   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Julianne
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://twitter.com/Julianne
+    - https://github.com/Julianne
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +54,7 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Julianne
+  # url: https://github.com/vszhub/
+  # email: vszhub@gmail.com
+  email: Julianne_M@163.com
