@@ -16,6 +16,9 @@
     <small>{{ site.description }}</small>
   </div>
   {%- if site.data.navigation -%}
+
+  {% comment %}
+  {%-
   <nav class="navigation">
     <ul class="navigation-list">
     {%- for nav in site.data.navigation -%}
@@ -25,6 +28,10 @@
     {%- endfor -%}
     </ul>
   </nav>
+  -%}
+  {% endcomment %}
+
+  
   {%- endif -%}
   {% if site.data.social -%}
     <div class="social pure-menu pure-menu-horizontal">
